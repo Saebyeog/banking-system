@@ -6,12 +6,14 @@
 
 int main()
 {
-  string = username;
-  
+   string = name, options
+ 
    std::cout<< "If existing user enter first name" << std::endl;
    std::cout<< "If new user enter first name" << std::endl;
    std::cin >> name;
   
+   std::cout<< "Would you like to deposit, withdraw, or display: "
+   std::cin>> options;
   //ask if existing user or new user
     //if existing user enter name(use first name only) or username
     //else new user put in name or username
