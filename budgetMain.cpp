@@ -3,6 +3,7 @@
 //31 Jan 2022
 
 #include <iostream>
+#include <fstream>    //stream class to read and write to/from files*
 
 int main()
 {
